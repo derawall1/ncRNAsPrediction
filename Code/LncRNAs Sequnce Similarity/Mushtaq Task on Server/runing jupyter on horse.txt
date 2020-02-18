@@ -1,0 +1,26 @@
+ssh -X -L 9999:127.0.0.1:9999 i181208@172.16.100.167
+
+password i181208123
+
+nohup jupyter notebook --port 9999 &
+
+ nano nohup.out
+
+transfer files
+
+scp ./Calculate_LncRNA-LncRNA_Seq_Sim.py i181208@172.16.100.167:MushtaqWorkspace2/LncRNAsSequenceSimilarity
+scp i181208@172.16.100.167:/scratch1/Mushtaq/LncRNA_Similarity/LncRNA-LncRNA_Similarity.csv ./
+pkill -f Calculate_LncRNA-LncRNA_Seq_Sim.py 
+
+jupyter nbconvert --to script file.ipynb
+
+Seq_Similarity.py 
+
+nohup python -u Calculate_LncRNA-LncRNA_Seq_Sim.py > output.log &
+netstat -ltnp | grep -w ':10000'
+
+ls -lhS /scratch1/Mushtaq/LncRNA_Similarity
+head -10 /scratch1/Mushtaq/LncRNA_Similarity/LncRNA-LncRNA_Similarity.csv
+tail -10 /scratch1/Mushtaq/LncRNA_Similarity/LncRNA-LncRNA_Similarity.csv
+
+

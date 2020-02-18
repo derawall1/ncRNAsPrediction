@@ -1,0 +1,126 @@
+########################################
+# Program: water
+# Rundate: Mon 17 Feb 2020 07:19:50
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-R20200217-071947-0323-52235374-p1m.asequence
+#    -bsequence emboss_water-R20200217-071947-0323-52235374-p1m.bsequence
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1069
+# Identity:    1069/1069 (100.0%)
+# Similarity:  1069/1069 (100.0%)
+# Gaps:           0/1069 ( 0.0%)
+# Score: 5345.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 GGAGGCGCCUAGUGAGGGUCAGGGAGGCCCGGCCCGCGCCCUCCCCGCCC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001         1 GGAGGCGCCUAGUGAGGGUCAGGGAGGCCCGGCCCGCGCCCUCCCCGCCC     50
+
+EMBOSS_001        51 AGCCGCCUCCCCGUCGACCACCCAGGGCUGGGGCGAGCCAGGCUGCCUUU    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001        51 AGCCGCCUCCCCGUCGACCACCCAGGGCUGGGGCGAGCCAGGCUGCCUUU    100
+
+EMBOSS_001       101 CGAACUUGGGGGCUUCUCCUCUUGUCUCCCACUGGUGCUCUGGCCGUGAA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       101 CGAACUUGGGGGCUUCUCCUCUUGUCUCCCACUGGUGCUCUGGCCGUGAA    150
+
+EMBOSS_001       151 UCCAUCCAGGCGCCAGGAGAUGACAAUCCGGUACCAAGGCCGGCAGUACA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       151 UCCAUCCAGGCGCCAGGAGAUGACAAUCCGGUACCAAGGCCGGCAGUACA    200
+
+EMBOSS_001       201 GGCUGAGGAUGGCAUUUCUCCAAAAGGUUUCCAAGCUGCGUCCUGGGCCU    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       201 GGCUGAGGAUGGCAUUUCUCCAAAAGGUUUCCAAGCUGCGUCCUGGGCCU    250
+
+EMBOSS_001       251 GGAGACUGAGACAGAGAUCCACGGACUGCAGUGCAGGCAGCCCACCCCAG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       251 GGAGACUGAGACAGAGAUCCACGGACUGCAGUGCAGGCAGCCCACCCCAG    300
+
+EMBOSS_001       301 AUCCGAGUCAUAUAAGUUUUUUUUCCCCCGAUGGAGUGAAGUGGUGCGAU    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       301 AUCCGAGUCAUAUAAGUUUUUUUUCCCCCGAUGGAGUGAAGUGGUGCGAU    350
+
+EMBOSS_001       351 CUUGGCUCACUGCAACCUCCACCCCCGGGUUCAAGCGAUUCUCCUGCCUU    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       351 CUUGGCUCACUGCAACCUCCACCCCCGGGUUCAAGCGAUUCUCCUGCCUU    400
+
+EMBOSS_001       401 AGCCUCUGGAGUAGCUGGAAUUACAGGUGCCUGCCACCAUGCCUGGCUAA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       401 AGCCUCUGGAGUAGCUGGAAUUACAGGUGCCUGCCACCAUGCCUGGCUAA    450
+
+EMBOSS_001       451 UUUUUAUAUUAUUAGUAGAGAUGGGGUUUUGCCAUGUUGGCCAGGCUGAC    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       451 UUUUUAUAUUAUUAGUAGAGAUGGGGUUUUGCCAUGUUGGCCAGGCUGAC    500
+
+EMBOSS_001       501 CUCGAACGCCUGACCUCAGGUGAUCCACCCGCUUUGGCCUCCCAAAGUGC    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       501 CUCGAACGCCUGACCUCAGGUGAUCCACCCGCUUUGGCCUCCCAAAGUGC    550
+
+EMBOSS_001       551 UACGAUUAUAGAUGUGAGCCACCGUGCCCAGCCCAGUGAUGACCCUUUUA    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       551 UACGAUUAUAGAUGUGAGCCACCGUGCCCAGCCCAGUGAUGACCCUUUUA    600
+
+EMBOSS_001       601 UGUAGCAUUUGUUUGAGGCCUCAGGAAAUAGUUGUGGAGAAGUCAGGAUU    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       601 UGUAGCAUUUGUUUGAGGCCUCAGGAAAUAGUUGUGGAGAAGUCAGGAUU    650
+
+EMBOSS_001       651 CUGGGAGAACUGGGCAGCUGUGCUCUGGUAAACAGUGGUGGGGUGGGGUG    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       651 CUGGGAGAACUGGGCAGCUGUGCUCUGGUAAACAGUGGUGGGGUGGGGUG    700
+
+EMBOSS_001       701 GGGAGGUGAUGGUAUGGGGAAGGAGUUGAAAUAUCAGUAAAAAACAUGCA    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       701 GGGAGGUGAUGGUAUGGGGAAGGAGUUGAAAUAUCAGUAAAAAACAUGCA    750
+
+EMBOSS_001       751 GACCCAAAGAUGGGGACCAAAAUCCAAAGCCAGAGGGUCCUGGAAAUCAG    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       751 GACCCAAAGAUGGGGACCAAAAUCCAAAGCCAGAGGGUCCUGGAAAUCAG    800
+
+EMBOSS_001       801 AGGGUCUUACAACAUAACAGGCAGUACAGGCCAUGGCUCAGGCUAGGCGU    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       801 AGGGUCUUACAACAUAACAGGCAGUACAGGCCAUGGCUCAGGCUAGGCGU    850
+
+EMBOSS_001       851 GGAACAGACUGCAGUUCUCUUCUACAAAUCAAUCUAGACUGGACAGACAG    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       851 GGAACAGACUGCAGUUCUCUUCUACAAAUCAAUCUAGACUGGACAGACAG    900
+
+EMBOSS_001       901 AACUCCAAGGGAGGAAAGAAAAAUGAAUCUGAUGUUACUUCUUGAAACCA    950
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       901 AACUCCAAGGGAGGAAAGAAAAAUGAAUCUGAUGUUACUUCUUGAAACCA    950
+
+EMBOSS_001       951 CAUUUUCUGAAGUCACCAUUUUUAUGUAUCUAUCAACUCAUCAUUUUUAU   1000
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001       951 CAUUUUCUGAAGUCACCAUUUUUAUGUAUCUAUCAACUCAUCAUUUUUAU   1000
+
+EMBOSS_001      1001 GUAUAUAUCAAUAUGAUUUUAUGAUCUUAUUUUUUCCUACUAAUGUGAUG   1050
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EMBOSS_001      1001 GUAUAUAUCAAUAUGAUUUUAUGAUCUUAUUUUUUCCUACUAAUGUGAUG   1050
+
+EMBOSS_001      1051 AAUUACCUUGAUUGAUUUU   1069
+                     |||||||||||||||||||
+EMBOSS_001      1051 AAUUACCUUGAUUGAUUUU   1069
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,114 @@
+########################################
+# Program: water
+# Rundate: Thu 13 Feb 2020 09:10:25
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-R20200213-091023-0624-65109839-p1m.asequence
+#    -bsequence emboss_water-R20200213-091023-0624-65109839-p1m.bsequence
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: n344453
+# 2: n344454
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 908
+# Identity:     376/908 (41.4%)
+# Similarity:   376/908 (41.4%)
+# Gaps:         426/908 (46.9%)
+# Score: 597.0
+# 
+#
+#=======================================
+
+n344453         1029 AUUGGUCUGGGGGACUGCGGGCCCAAUGUGG-UGGGAGUUUUAGAGCAG-   1076
+                     ||||.|...||   ||||||..|.|| |||| ||.|.||.||   ||.| 
+n344454            1 AUUGUUAACGG---CUGCGGUUCGAA-GUGGCUGUGGGUAUU---GCUGC     43
+
+n344453         1077 GGACCCCUCCACU-GUACGUGGAUUCUUAUACUUGCU-AAGUUGCACUGA   1124
+                     ||         || ||.|||.|          |.||| .||.|.||.|.|
+n344454           44 GG---------CUGGUGCGUCG----------UCGCUCUAGGUCCAGUAA     74
+
+n344453         1125 AU--UCU-CAAUCA-ACCCAUUUGGAGGCUCUCACCAAGACAGGAGUCCC   1170
+                     ||  .|| |.| || |.|.|||||           |||.|||        
+n344454           75 AUGACCUGCGA-CAUAACUAUUUG-----------CAAAACA--------    104
+
+n344453         1171 UUUGAAUUGGUAGGAUGUUAAAAGCUUCCUCCAGCCAUUGACCCUGGGUC   1220
+                         |||.||.|.||                                   
+n344454          105 ----AAUGGGGAAGA-----------------------------------    115
+
+n344453         1221 CCAUUGGUAGA-AAUCAGAUAA--UAAAUCAGAUUUUCCAGGUAAUCCUC   1267
+                     |||     ||| ||  ||||||  ||.||||       ||||        
+n344454          116 CCA-----AGAUAA--AGAUAAGUUAUAUCA-------CAGG--------    143
+
+n344453         1268 AGUUUAAUGUCCAUUCCCUCAUUCAAUCAAUU----AUUCAAUUACAAAU   1313
+                                            .||.|||||    ||.|||    ||||
+n344454          144 -----------------------AAAGCAAUUGAAAAUGCAA----AAAU    166
+
+n344453         1314 ----CAUUU----------UUAAUAUGAUUUUAUGGUUCAGGAAUUCAGG   1349
+                         |||.|          .|||||..|.|           |||||||| 
+n344454          167 GAAGCAUCUGAAUGAAGGACUAAUAACACU-----------GAAUUCAG-    204
+
+n344453         1350 CAGGGCUCAGAUGGGCAGUUCU--UCUGC------------CCCACAUGG   1385
+                            |...||.|.||||||  |||||            .||||||  
+n344454          205 -------CUUUUGUGAAGUUCUUAUCUGCAGAUAUGUACAGACCACAU--    245
+
+n344453         1386 C-----AUUGGCUGAUAACAGGCUACCCCAA-GGAAAU-CA-----CAGU   1423
+                     |     ||||.||        .||.||.||| .||||| ||     ||||
+n344454          246 CCUAAGAUUGACU--------UCUGCCUCAACAGAAAUACAUGAGCCAGU    287
+
+n344453         1424 G--UAAUGGGAGAUGGGAAAUAGG------UUAACACAAAGUUAC-----   1460
+                     |  |.||.|||.|||    ||..|      ||||.|       ||     
+n344454          288 GCCUUAUUGGAAAUG----AUUUGCGUGUUUUAAGA-------ACUGGUG    326
+
+n344453         1461 UAUACUACAAGAAAAAUCUUCAAAUCUUCAAUCUUCAUU--CUUCAUGGG   1508
+                     ||||    .||..|.||||| .|||.|||....|||.||  ||| |||..
+n344454          327 UAUA----UAGGUACAUCUU-GAAUGUUCUGCUUUCCUUGCCUU-AUGCC    370
+
+n344453         1509 UGUGAGUCUUCUCUGGUGGAGAAGAGAGUUCUUUGCUAAAUUAUAUUCCU   1558
+                     |||...||..|||           ||..|||       ||||..||   |
+n344454          371 UGUACUUCACCUC-----------AGCCUUC-------AAUUCCAU---U    399
+
+n344453         1559 GUGUUAGCCAGCCAAGCACACACGGAGUACAGCUGUCCCUUGCUAUUCAU   1608
+                     ||||                               |.||||||||  |.|
+n344454          400 GUGU-------------------------------UUCCUUGCUA--CUU    416
+
+n344453         1609 GGCAGAUUGAUCCCAGACACUGCCACCCCCAGCCCUGUGAACACCAAAAC   1658
+                     ||.|..||||      |..|||              ||    ||.|||  
+n344454          417 GGUAUCUUGA------AAUCUG--------------GU----ACGAAA--    440
+
+n344453         1659 CCA-UGGAUGCUCAAGUCCUUGAUAUAAAAUGGUAUGGUAUUUGCACAUA   1707
+                     |.| ||.|||.||                                     
+n344454          441 CUAUUGCAUGAUC-------------------------------------    453
+
+n344453         1708 ACCUACACACAU--CUUC-CCAUAUACUUUAAAUCAUCACUAGAUUACUU   1754
+                      |||.||| |.|  |||| .|||||          |||| |||.|..|||
+n344454          454 -CCUGCAC-CUUUGCUUCUGCAUAU----------AUCA-UAGCUCUCUU    490
+
+n344453         1755 AUAAU-----------ACCUAAUGCA----AUGUAAAUGCUAUGUAAGUA   1789
+                     |||.|           |.|||.|.||    |||||      ||..|||| 
+n344454          491 AUAGUGAGUGUGCACAAUCUAUUUCAUUUGAUGUA------AUCAAAGU-    533
+
+n344453         1790 GUUGCUACGCUGUAUUGCUUAGGGAAUAAUGACAAGAAAAAAAGGCUGUA   1839
+                      ||..||     |||||..|||..||.|||         ||||     ||
+n344454          534 -UUAAUA-----UAUUGGAUAGUUAAAAAU---------AAAA-----UA    563
+
+n344453         1840 CAACUUCA   1847
+                     ||||||.|
+n344454          564 CAACUUUA    571
+
+
+#---------------------------------------
+#---------------------------------------

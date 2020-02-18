@@ -1,0 +1,469 @@
+; FOLDALIGN           v2.5.1
+; REFERENCE           D. Sundfeld, J.H. Havgaard, A.C. de Melo, and J. Gorodkin
+; REFERENCE           Foldalign 2.5: multithreaded implementation for pairwise
+; REFERENCE           structural RNA alignment.
+; REFERENCE           Bioinformatics 2016, 32(8):1238-1240,
+; REFERENCE           doi: 10.1093/bioinformatics/btv748
+; ALIGNMENT_ID         Structure 3
+; ALIGNING            NONHSAT140501.2 against NONHSAT000002.2
+; PARAMETER           max_length=169
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=sm.gap_open_-110.gap_elongation_-55.fmat
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=211
+; PARAMETER           j=379
+; PARAMETER           k=121
+; PARAMETER           l=288
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; SEQUENCE_LENGTH     NONHSAT140501.2 = 573
+; SEQUENCE_LENGTH     NONHSAT000002.2 = 1653
+; GC_CONTENT_SEQ_1    0.38
+; GC_CONTENT_SEQ_2    0.55
+; SEQUENCE_1_COMMENT  
+; SEQUENCE_2_COMMENT  
+; ALIGN               
+; ALIGN               Score: 420
+; ALIGN               Identity: 41 % ( 70 / 172 )
+; ALIGN               
+; ALIGN               NONHSAT140501 Begin 211
+; ALIGN               NONHSAT000002 Begin 121
+; ALIGN               
+; ALIGN               NONHSAT140501 UGAAGUUCUU AUCUGCAGAU AUGUACAGAC CACAUCCUAA
+; ALIGN               Structure     (((((((..( (((....))) )......))) ((((((...(
+; ALIGN               NONHSAT000002 UGUGGUCUUC AUCUGCAGGU GUCU---GAC UUCCAGCAAC
+; ALIGN               
+; ALIGN               NONHSAT140501 GAUUGACUUC UGCCUCAACA GAAAUAC-AU GAGCCAGUGC
+; ALIGN               Structure     (.((((.((( ((......)) ).)).((.(( .((((((...
+; ALIGN               NONHSAT000002 UGCUGGCCUG UGCCAGGGUG CAAGCUGAGC ACUGGAGUGG
+; ALIGN               
+; ALIGN               NONHSAT140501 CUUAUUGGAA AUGAUUUGCG UGUU--UUAA GAACUGGUGU
+; ALIGN               Structure     ....)))).. .....))..) )))...)))) ...))(((((
+; ALIGN               NONHSAT000002 AGUUUUCCUG UGGAGAGGAG CCAUGCCUAG AGUGGGAUGG
+; ALIGN               
+; ALIGN               NONHSAT140501 AUAUAGGUAC AUCUUGAAUG UUCUGCUUUC CUUGCCUUAU
+; ALIGN               Structure     ((....)))) )))..)).)) ....((.... ...)).....
+; ALIGN               NONHSAT000002 GCCAUUGUUC AUCUUCU-GG CCCCUGUUGU CUGCAUGUAA
+; ALIGN               
+; ALIGN               NONHSAT140501 GCCUGUACUU CA
+; ALIGN               Structure     ...))...)) ))
+; ALIGN               NONHSAT000002 CUUAAUACCA CA
+; ALIGN               
+; ALIGN               NONHSAT140501 End 379
+; ALIGN               NONHSAT000002 End 288
+; ==============================================================================
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               NONHSAT140501.2
+; ALIGNMENT_ID         Structure 3
+; ALIGNMENT_LIST      NONHSAT140501.2 NONHSAT000002.2
+; FOLDALIGN_SCORE     420
+; GROUP               1
+; FILENAME            data.tab
+; START_POSITION      211
+; END_POSITION        379
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    172
+; SEQUENCE_LENGTH     573
+; SEQUENCE_GC_CONTENT 0.38
+; PARAMETER           max_length=169
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=sm.gap_open_-110.gap_elongation_-55.fmat
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=211
+; PARAMETER           j=379
+; PARAMETER           k=121
+; PARAMETER           l=288
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         U       211         1       172       379
+N         G       212         2       171       378
+N         A       213         3       170       377
+N         A       214         4       169       376
+N         G       215         5        30       240
+N         U       216         6        29       239
+N         U       217         7        28       238
+N         C       218         8         .         .
+N         U       219         9         .         .
+N         U       220        10        21       231
+N         A       221        11        20       230
+N         U       222        12        19       229
+N         C       223        13        18       228
+N         U       224        14         .         .
+N         G       225        15         .         .
+N         C       226        16         .         .
+N         A       227        17         .         .
+N         G       228        18        13       223
+N         A       229        19        12       222
+N         U       230        20        11       221
+N         A       231        21        10       220
+N         U       232        22         .         .
+N         G       233        23         .         .
+N         U       234        24         .         .
+N         A       235        25         .         .
+N         C       236        26         .         .
+N         A       237        27         .         .
+N         G       238        28         7       217
+N         A       239        29         6       216
+N         C       240        30         5       215
+N         C       241        31       165       372
+N         A       242        32       164       371
+N         C       243        33       140       347
+N         A       244        34       139       346
+N         U       245        35       137       344
+N         C       246        36       136       343
+N         C       247        37         .         .
+N         U       248        38         .         .
+N         A       249        39         .         .
+N         A       250        40       115       322
+N         G       251        41       114       321
+N         A       252        42         .         .
+N         U       253        43       110       317
+N         U       254        44       109       316
+N         G       255        45       108       315
+N         A       256        46       107       314
+N         C       257        47         .         .
+N         U       258        48        64       274
+N         U       259        49        63       273
+N         C       260        50        61       271
+N         U       261        51        60       270
+N         G       262        52        59       269
+N         C       263        53         .         .
+N         C       264        54         .         .
+N         U       265        55         .         .
+N         C       266        56         .         .
+N         A       267        57         .         .
+N         A       268        58         .         .
+N         C       269        59        52       262
+N         A       270        60        51       261
+N         G       271        61        50       260
+N         A       272        62         .         .
+N         A       273        63        49       259
+N         A       274        64        48       258
+N         U       275        65         .         .
+N         A       276        66       103       312
+N         C       277        67       102       311
+G         -         .        68         .         .
+N         A       278        69       101       310
+N         U       279        70       100       309
+N         G       280        71         .         .
+N         A       281        72        97       306
+N         G       282        73        96       305
+N         C       283        74        88       297
+N         C       284        75        87       296
+N         A       285        76        86       295
+N         G       286        77        85       294
+N         U       287        78         .         .
+N         G       288        79         .         .
+N         C       289        80         .         .
+N         C       290        81         .         .
+N         U       291        82         .         .
+N         U       292        83         .         .
+N         A       293        84         .         .
+N         U       294        85        77       286
+N         U       295        86        76       285
+N         G       296        87        75       284
+N         G       297        88        74       283
+N         A       298        89         .         .
+N         A       299        90         .         .
+N         A       300        91         .         .
+N         U       301        92         .         .
+N         G       302        93         .         .
+N         A       303        94         .         .
+N         U       304        95         .         .
+N         U       305        96        73       282
+N         U       306        97        72       281
+N         G       307        98         .         .
+N         C       308        99         .         .
+N         G       309       100        70       279
+N         U       310       101        69       278
+N         G       311       102        67       277
+N         U       312       103        66       276
+N         U       313       104         .         .
+G         -         .       105         .         .
+G         -         .       106         .         .
+N         U       314       107        46       256
+N         U       315       108        45       255
+N         A       316       109        44       254
+N         A       317       110        43       253
+N         G       318       111         .         .
+N         A       319       112         .         .
+N         A       320       113         .         .
+N         C       321       114        41       251
+N         U       322       115        40       250
+N         G       323       116       133       340
+N         G       324       117       132       339
+N         U       325       118       131       338
+N         G       326       119       130       337
+N         U       327       120       129       336
+N         A       328       121       128       335
+N         U       329       122       127       334
+N         A       330       123         .         .
+N         U       331       124         .         .
+N         A       332       125         .         .
+N         G       333       126         .         .
+N         G       334       127       122       329
+N         U       335       128       121       328
+N         A       336       129       120       327
+N         C       337       130       119       326
+N         A       338       131       118       325
+N         U       339       132       117       324
+N         C       340       133       116       323
+N         U       341       134         .         .
+N         U       342       135         .         .
+N         G       343       136        36       246
+N         A       344       137        35       245
+N         A       345       138         .         .
+N         U       346       139        34       244
+N         G       347       140        33       243
+N         U       348       141         .         .
+N         U       349       142         .         .
+N         C       350       143         .         .
+N         U       351       144         .         .
+N         G       352       145       155       362
+N         C       353       146       154       361
+N         U       354       147         .         .
+N         U       355       148         .         .
+N         U       356       149         .         .
+N         C       357       150         .         .
+N         C       358       151         .         .
+N         U       359       152         .         .
+N         U       360       153         .         .
+N         G       361       154       146       353
+N         C       362       155       145       352
+N         C       363       156         .         .
+N         U       364       157         .         .
+N         U       365       158         .         .
+N         A       366       159         .         .
+N         U       367       160         .         .
+N         G       368       161         .         .
+N         C       369       162         .         .
+N         C       370       163         .         .
+N         U       371       164        32       242
+N         G       372       165        31       241
+N         U       373       166         .         .
+N         A       374       167         .         .
+N         C       375       168         .         .
+N         U       376       169         4       214
+N         U       377       170         3       213
+N         C       378       171         2       212
+N         A       379       172         1       211
+; ******************************************************************************
+; TYPE                RNA
+; COL 1               label
+; COL 2               residue
+; COL 3               seqpos
+; COL 4               alignpos
+; COL 5               align_bp
+; COL 6               seqpos_bp
+; ENTRY               NONHSAT000002.2
+; ALIGNMENT_ID         Structure 3
+; ALIGNMENT_LIST      NONHSAT140501.2 NONHSAT000002.2
+; FOLDALIGN_SCORE     420
+; GROUP               1
+; FILENAME            data.tab
+; START_POSITION      121
+; END_POSITION        288
+; ALIGNMENT_SIZE      2
+; ALIGNMENT_LENGTH    172
+; SEQUENCE_LENGTH     1653
+; SEQUENCE_GC_CONTENT 0.55
+; PARAMETER           max_length=169
+; PARAMETER           max_diff=25
+; PARAMETER           min_loop=3
+; PARAMETER           score_matrix=sm.gap_open_-110.gap_elongation_-55.fmat
+; PARAMETER           nobranching=<false>
+; PARAMETER           global=<false>
+; PARAMETER           use_global_pruning=<false>
+; PARAMETER           i=211
+; PARAMETER           j=379
+; PARAMETER           k=121
+; PARAMETER           l=288
+; PARAMETER           no_prune=<false>
+; PARAMETER           min_LS_score=0
+; ------------------------------------------------------------------------------
+N         U       121         1       172       288
+N         G       122         2       171       287
+N         U       123         3       170       286
+N         G       124         4       169       285
+N         G       125         5        30       147
+N         U       126         6        29       146
+N         C       127         7        28       145
+N         U       128         8         .         .
+N         U       129         9         .         .
+N         C       130        10        21       141
+N         A       131        11        20       140
+N         U       132        12        19       139
+N         C       133        13        18       138
+N         U       134        14         .         .
+N         G       135        15         .         .
+N         C       136        16         .         .
+N         A       137        17         .         .
+N         G       138        18        13       133
+N         G       139        19        12       132
+N         U       140        20        11       131
+N         G       141        21        10       130
+N         U       142        22         .         .
+N         C       143        23         .         .
+N         U       144        24         .         .
+G         -         .        25         .         .
+G         -         .        26         .         .
+G         -         .        27         .         .
+N         G       145        28         7       127
+N         A       146        29         6       126
+N         C       147        30         5       125
+N         U       148        31       165       281
+N         U       149        32       164       280
+N         C       150        33       140       256
+N         C       151        34       139       255
+N         A       152        35       137       254
+N         G       153        36       136       253
+N         C       154        37         .         .
+N         A       155        38         .         .
+N         A       156        39         .         .
+N         C       157        40       115       232
+N         U       158        41       114       231
+N         G       159        42         .         .
+N         C       160        43       110       227
+N         U       161        44       109       226
+N         G       162        45       108       225
+N         G       163        46       107       224
+N         C       164        47         .         .
+N         C       165        48        64       181
+N         U       166        49        63       180
+N         G       167        50        61       178
+N         U       168        51        60       177
+N         G       169        52        59       176
+N         C       170        53         .         .
+N         C       171        54         .         .
+N         A       172        55         .         .
+N         G       173        56         .         .
+N         G       174        57         .         .
+N         G       175        58         .         .
+N         U       176        59        52       169
+N         G       177        60        51       168
+N         C       178        61        50       167
+N         A       179        62         .         .
+N         A       180        63        49       166
+N         G       181        64        48       165
+N         C       182        65         .         .
+N         U       183        66       103       220
+N         G       184        67       102       219
+N         A       185        68         .         .
+N         G       186        69       101       218
+N         C       187        70       100       217
+N         A       188        71         .         .
+N         C       189        72        97       214
+N         U       190        73        96       213
+N         G       191        74        88       205
+N         G       192        75        87       204
+N         A       193        76        86       203
+N         G       194        77        85       202
+N         U       195        78         .         .
+N         G       196        79         .         .
+N         G       197        80         .         .
+N         A       198        81         .         .
+N         G       199        82         .         .
+N         U       200        83         .         .
+N         U       201        84         .         .
+N         U       202        85        77       194
+N         U       203        86        76       193
+N         C       204        87        75       192
+N         C       205        88        74       191
+N         U       206        89         .         .
+N         G       207        90         .         .
+N         U       208        91         .         .
+N         G       209        92         .         .
+N         G       210        93         .         .
+N         A       211        94         .         .
+N         G       212        95         .         .
+N         A       213        96        73       190
+N         G       214        97        72       189
+N         G       215        98         .         .
+N         A       216        99         .         .
+N         G       217       100        70       187
+N         C       218       101        69       186
+N         C       219       102        67       184
+N         A       220       103        66       183
+N         U       221       104         .         .
+N         G       222       105         .         .
+N         C       223       106         .         .
+N         C       224       107        46       163
+N         U       225       108        45       162
+N         A       226       109        44       161
+N         G       227       110        43       160
+N         A       228       111         .         .
+N         G       229       112         .         .
+N         U       230       113         .         .
+N         G       231       114        41       158
+N         G       232       115        40       157
+N         G       233       116       133       250
+N         A       234       117       132       249
+N         U       235       118       131       248
+N         G       236       119       130       247
+N         G       237       120       129       246
+N         G       238       121       128       245
+N         C       239       122       127       244
+N         C       240       123         .         .
+N         A       241       124         .         .
+N         U       242       125         .         .
+N         U       243       126         .         .
+N         G       244       127       122       239
+N         U       245       128       121       238
+N         U       246       129       120       237
+N         C       247       130       119       236
+N         A       248       131       118       235
+N         U       249       132       117       234
+N         C       250       133       116       233
+N         U       251       134         .         .
+N         U       252       135         .         .
+N         C       253       136        36       153
+N         U       254       137        35       152
+G         -         .       138         .         .
+N         G       255       139        34       151
+N         G       256       140        33       150
+N         C       257       141         .         .
+N         C       258       142         .         .
+N         C       259       143         .         .
+N         C       260       144         .         .
+N         U       261       145       155       271
+N         G       262       146       154       270
+N         U       263       147         .         .
+N         U       264       148         .         .
+N         G       265       149         .         .
+N         U       266       150         .         .
+N         C       267       151         .         .
+N         U       268       152         .         .
+N         G       269       153         .         .
+N         C       270       154       146       262
+N         A       271       155       145       261
+N         U       272       156         .         .
+N         G       273       157         .         .
+N         U       274       158         .         .
+N         A       275       159         .         .
+N         A       276       160         .         .
+N         C       277       161         .         .
+N         U       278       162         .         .
+N         U       279       163         .         .
+N         A       280       164        32       149
+N         A       281       165        31       148
+N         U       282       166         .         .
+N         A       283       167         .         .
+N         C       284       168         .         .
+N         C       285       169         4       124
+N         A       286       170         3       123
+N         C       287       171         2       122
+N         A       288       172         1       121
+; ******************************************************************************

@@ -1,0 +1,534 @@
+########################################
+# Program: water
+# Rundate: Mon 17 Feb 2020 07:32:10
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-R20200217-073205-0252-92107335-p1m.asequence
+#    -bsequence emboss_water-R20200217-073205-0252-92107335-p1m.bsequence
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6182
+# Identity:    2278/6182 (36.8%)
+# Similarity:  2278/6182 (36.8%)
+# Gaps:        3304/6182 (53.4%)
+# Score: 3414.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 UCUCGCUCUG--UCACC------------------------CAGGCUGGA     24
+                     ||.|.||.||  |||||                        .||||||||
+EMBOSS_001      5269 UCACACUGUGACUCACCAGCCGCGCGCGUGCUGGGCAGGUAGAGGCUGGA   5318
+
+EMBOSS_001        25 GUG--CAGUGGCGUGAUCUCGGCUCAU--UGC--------------AACC     56
+                     |.|  |||..||.||  |..|||||.|  |||              .|||
+EMBOSS_001      5319 GCGGUCAGGAGCAUG--CCUGGCUCCUGGUGCCUCUCUAUGGAGAGCACC   5366
+
+EMBOSS_001        57 UC--CGCCUC-CUGGGUUCAAGCAAUUCUC-CUGCC-----------UCA     91
+                     ||  .||||| |||.|    ||||   ||| |.|||           .|.
+EMBOSS_001      5367 UCUGUGCCUCUCUGAG----AGCA---CUCACAGCCAAAAGUACACAGCU   5409
+
+EMBOSS_001        92 GCCUCCUGAGUAGCUGGGA-------UUACAGGCGCCC-----GCCACCA    129
+                     |||.||.|    ||||.||       .||||    |||     .|| ||.
+EMBOSS_001      5410 GCCCCCAG----GCUGAGAGUGCUUGAUACA----CCCUUGAAUCC-CCU   5450
+
+EMBOSS_001       130 CU----------CCCAGC----------UA-------------------A    140
+                     ||          ||||||          ||                   |
+EMBOSS_001      5451 CUUAUAUGAUGCCCCAGCCCAGGAGAGAUAAAAGCAUCAGCACCAUGAGA   5500
+
+EMBOSS_001       141 UU--------UUUGUAUUUUUAGUAG--GGACGAGGUUUCACCAUGUUGG    180
+                     ||        |.|| .|..|||| ||  |||    .|||||.|||||||.
+EMBOSS_001      5501 UUCACCUGCCUCUG-GUCGUUAG-AGAUGGA----AUUUCAACAUGUUGC   5544
+
+EMBOSS_001       181 UCAGGCUGGUCUCAAACUCCUGACCUC--GUGAUCUGCCCUCCUUGGCCU    228
+                     .|||.|||||||..||||||||..|||  |||||..|||..|||.|||||
+EMBOSS_001      5545 CCAGACUGGUCUGGAACUCCUGUGCUCAAGUGAUUCGCCUGCCUCGGCCU   5594
+
+EMBOSS_001       229 UCCAAAGUGCUGGGAUUACAGGCGUGAUGGAGAUGAUACUCCCUA---AA    275
+                     .|.|||||||||||||||.||||         ||||..|.|||||   |.
+EMBOSS_001      5595 CCGAAAGUGCUGGGAUUAUAGGC---------AUGAGCCACCCUACCCAG   5635
+
+EMBOSS_001       276 UCACAAGGGUGUGGUGUGAAG-AUGAAAUGGCUGCACGU-GACAG-----    318
+                     .||.|             ||| ||.||     |.|.|.| |||||     
+EMBOSS_001      5636 CCAAA-------------AAGUAUAAA-----UACUCUUAGACAGCAAAA   5667
+
+EMBOSS_001       319 ------------AG-----------------GAGU------------UGG    327
+                                 ||                 .|||            |||
+EMBOSS_001      5668 AUGCUUUCUCCCAGUCUUGUUCCCUUGUUCUCAGUUCCCACCCUGCCUGG   5717
+
+EMBOSS_001       328 AGAACAGGAAGCAAGUG-----GAUUACUUG-------GAU-GAACUGUG    364
+                     |.||       |.|.||     |.||.||||       ||| ||.|| ||
+EMBOSS_001      5718 AUAA-------CUACUGUUCUUGGUUUCUUGUGUUAAAGAUGGAUCU-UG   5759
+
+EMBOSS_001       365 AUGGGC-----CCAAGA---AGAACUAAGCCAAUCACUCC----------    396
+                     ||.|.|     || |||   |.||.|.||.|||..|||.|          
+EMBOSS_001      5760 AUAGUCUCGUACC-AGAUUCAAAAAUCAGUCAACUACUUCAAAAACAAUG   5808
+
+EMBOSS_001       397 ------------------------AGGGGGCGUUUU--------------    408
+                                             |||.|||.||||              
+EMBOSS_001      5809 ACAUGCUGGCUACUUAAAUAGAAAAGGAGGCUUUUUUUUUACUCUGUCAC   5858
+
+EMBOSS_001       409 ----------CCCAGGAU--------------------CCAGGCAGAGAG    428
+                               ||.|||||                    |||..|..||||
+EMBOSS_001      5859 ACAUUUGCUGCCUAGGAUUGAAUUACCUGCCCUGCUCCCCACCCUCAGAG   5908
+
+EMBOSS_001       429 ---------------------------CUGAUUC---CAGCAUCCAC---    445
+                                                |||.|||   |||..||.||   
+EMBOSS_001      5909 CUAUAUAAAUUCUGUCCUAAACUUUUUCUGUUUCUGACAGUCUCUACAAC   5958
+
+EMBOSS_001       446 ---------GUUGUAUCCCCCU-----------------CCCGCUGUGGC    469
+                              ||||||     ||                 ||..||.||.|
+EMBOSS_001      5959 AUAGCCUUUGUUGUA-----CUAUGAAUUUUUAUCUCAGCCAUCUUUGUC   6003
+
+EMBOSS_001       470 ---------------CGGGGUCUCCAAGAGCCGGGCACCCACU----GCA    500
+                                    ||..||||..|||             ||    |||
+EMBOSS_001      6004 UAAGUUUCUUUGUUUCGAUGUCUUGAAG-------------CUUAAAGCA   6040
+
+EMBOSS_001       501 GA-------GCUUCCAAGCCCAGGCCCAUUUGAA-----CACAGGAGGAC    538
+                     ||       .|||..||||..||       ||||     |.|||      
+EMBOSS_001      6041 GAUUCUAUUACUUGGAAGCUUAG-------UGAAUUGGCCCCAG------   6077
+
+EMBOSS_001       539 UUUUGAGGUUCAUUUAACCCCAAAAUCAGUGAUUC----UACAUCUCAAG    584
+                       ||.|   |||..|||.|.|.||||.|   ||||    .|.|.|||.|.
+EMBOSS_001      6078 --UUAA---UCAGAUAAGCACUAAAUAA---AUUCCCUGGAAACCUCCAA   6119
+
+EMBOSS_001       585 CUCAUA---UUUUGAAG-------------UGUUUACGGGGUUGCAGUGA    618
+                     |..|||   |||..|||             .|||||      |.|  |||
+EMBOSS_001      6120 CAGAUAGACUUUAAAAGAUCCAGCACAAUCGGUUUA------UCC--UGA   6161
+
+EMBOSS_001       619 GCCAAGAUUGCGCCAUUGCACUCCAGCCUG----GGUG-AGA--GAGCGA    661
+                       ||||||             |.||| |||    |||| |||  ||| ||
+EMBOSS_001      6162 --CAAGAU-------------UACAG-CUGAUACGGUGAAGAUGGAG-GA   6194
+
+EMBOSS_001       662 GACUC--CAUCUCUGAAUAA-AUAAAG-------UAACAA-----AAUAC    696
+                     |||||  ..|.||||||||| .|.|||       |||.||     ||..|
+EMBOSS_001      6195 GACUCUGGUUUUCUGAAUAACUUGAAGCGGACUCUAAGAAAGAGGAAGGC   6244
+
+EMBOSS_001       697 AU------------------------------UUCAGUCUCGA-------    709
+                     ||                              .||||.||.||       
+EMBOSS_001      6245 AUCAGGAAUGUGGACGGGCAGCCGUGCUCAGGCUCAGGCUGGAUGUGUGC   6294
+
+EMBOSS_001       710 --------------GCUC-------CAGU---------------------    717
+                                   ||||       ||||                     
+EMBOSS_001      6295 UGUGGCCAGCAGCGGCUCUGGACGGCAGUCAGCAAACCAGGCAACAAGAA   6344
+
+EMBOSS_001       718 -------UCCCUGC---CAGGAAG-------AGCU--GAAG------CU-    741
+                            |.|||||   |||.|||       |.||  ||||      || 
+EMBOSS_001      6345 CCCAGCAUUCCUGCAGUCAGAAAGAAAAUUCAUCUGGGAAGAGGGACCUU   6394
+
+EMBOSS_001       742 ----GAGCUCUGGCACCC---------------CCUGCUUCU--------    764
+                         ||||||||||..||               |.|||||||        
+EMBOSS_001      6395 UAGAGAGCUCUGGCUGCCCACUUCCUGGGCACUCUUGCUUCUCAGUCUGG   6444
+
+EMBOSS_001       765 -------------------------------------UCUC---------    768
+                                                          ||||         
+EMBOSS_001      6445 AGGAAGGACCCUGGUAGCUCAGUCAUGGUCAGCACCAUCUCCAAGACUGC   6494
+
+EMBOSS_001       769 ----------CCUC---------AUCCCUAAAACAUG-------UGGGGU    792
+                               ||||         |.|||.||.|||||       .|.|.|
+EMBOSS_001      6495 CCAGCACAGUCCUCCAACACUUUACCCCAAACACAUGCACACUUAGUGUU   6544
+
+EMBOSS_001       793 AC--------UGGGUGCCA-----------------AAGGAGAUCUGA--    815
+                     ||        |..||.|||                 ||.|||.|.|.|  
+EMBOSS_001      6545 ACCUAAUGCAUUUGUCCCAAGUCAUCACUUCUCUACAAAGAGCUUUUAAU   6594
+
+EMBOSS_001       816 ----------AGAUGGCCACCACUC-AGACCAG-CAGUAGAGGCCAAGAA    853
+                               ||.|||      ||| .||..|| .||.||.||.||..||
+EMBOSS_001      6595 UCACUGGCUCAGGUGG------CUCUGGAUGAGUUAGGAGGGGUCACCAA   6638
+
+EMBOSS_001       854 GGUGG-------UGAGAA--------------------------------    864
+                     .||||       ||||.|                                
+EMBOSS_001      6639 UGUGGUUUCCUCUGAGGAAACUCUCUCCACAGGGUUGUUCUGUAAACUGA   6688
+
+EMBOSS_001       865 --------------------------------AUUUUAAGGUAUU-----    877
+                                                     ||||.|||.|.||     
+EMBOSS_001      6689 CUAUCCCACACAUCUCUGUGACCUGGUACUGCAUUUAAAGAUGUUGGUCA   6738
+
+EMBOSS_001       878 ----------------GUAGCAU-AUGCUCUCCAGGG--UG-----AGGA    903
+                                     ||||||| .||.|..||||.|  ||     |||.
+EMBOSS_001      6739 AACUCAUGGAAGCAGAGUAGCAUGGUGGUUGCCAGCGAUUGGCAGAAGGG   6788
+
+EMBOSS_001       904 CACAG----GAUGCUGGGACCUAAGGAGGGAGAA-------GUUAACCCA    942
+                     .|.||    ||||.|||  .|.|||  ||.|.||       ||||..|.|
+EMBOSS_001      6789 GAAAGGGGAGAUGAUGG--UCAAAG--GGUACAAAGUUUCCGUUACACAA   6834
+
+EMBOSS_001       943 GAGAGGGCCCAAGUCAG----GGAGGACCUGACUGUGGUGAC-----AGA    983
+                     ||       |||.|.||    ||| ||.|| |||.|    ||     ||.
+EMBOSS_001      6835 GA-------CAAAUAAGUUCUGGA-GAUCU-ACUAU----ACACCAUAGU   6871
+
+EMBOSS_001       984 GCCAGU-------CAUGCUA------------AUAAU---------AGGA   1005
+                     |||.||       .||||||            |.|||         ||||
+EMBOSS_001      6872 GCCUGUAGCUUUGAAUGCUAUAUUAUAUACUUAAAAUUUGCAGGCCAGGA   6921
+
+EMBOSS_001      1006 GCAGUGGUUU-----UGCAAUCACAAAUAUUGGUCUGGGGGACUGCGGGC   1050
+                     ||.||||.||     ||.||||.||      |..||..||||      |.
+EMBOSS_001      6922 GCGGUGGCUUAUGCCUGUAAUCUCA------GCACUUAGGGA------GG   6959
+
+EMBOSS_001      1051 CCAAUGU-GGUG-------------GGAGUUUUAGAGCAG----------   1076
+                     ||.|.|| ||||             |||||||.|||.|||          
+EMBOSS_001      6960 CCGAGGUGGGUGGAUCACAAGGUCAGGAGUUUGAGACCAGCCCAGUCAAU   7009
+
+EMBOSS_001      1077 --GG----ACCC---CUCCACU----GUAC--------------------   1093
+                       ||    ||||   |||.|||    .|||                    
+EMBOSS_001      7010 AUGGUGAAACCCCAUCUCUACUAAAAAUACAAAAAUUAGCCGGGCAUGGU   7059
+
+EMBOSS_001      1094 -GUGGAUUCUUAUA-------CUUGCUA-----AGUUGCACUGAAUUCUC   1130
+                      |||||     |.|       |.|||.|     |||     |.||.||||
+EMBOSS_001      7060 GGUGGA-----ACAAUGGAGGCCUGCGAUUUGGAGU-----UAAACUCUC   7099
+
+EMBOSS_001      1131 AAUCAACCCAUUUGGAGGCUCU----------CACCAA---GACAGGAGU   1167
+                     |.|.|            .||||          ||||||   .|.||||.|
+EMBOSS_001      7100 AGUGA------------UCUCUGUGUUGACAACACCAAAGCUAGAGGAAU   7137
+
+EMBOSS_001      1168 CCCUUUGAAU-------UGGU---------AGG-----------------   1184
+                     ||..|.|.||       ||||         |||                 
+EMBOSS_001      7138 CCAGUAGGAUGUGGGCAUGGUUUUCCCGGAAGGCUGACUGAGCAGUUCUG   7187
+
+EMBOSS_001      1185 ---AUGUU--------------AAAAGCUUCCUCCAGCCAUUG-ACCCUG   1216
+                        |||||              |.|| .|||.|||||||...| |||.||
+EMBOSS_001      7188 CAAAUGUUUGCAAGUACAGGGCAGAA-UUUCAUCCAGCCUCAGAACCUUG   7236
+
+EMBOSS_001      1217 GGUCCCAUUGGUAGA-----AAUCAGAUAA---UAAA---UCAGAUUUUC   1255
+                     .|  |||     |||     .|||||..||   .|||   |||..|.|||
+EMBOSS_001      7237 AG--CCA-----AGACUCAGCAUCAGCAAAGCCAAAAGUUUCAUUUCUUC   7279
+
+EMBOSS_001      1256 CA----------GGUAAUCCUCA--GUUUA-AUGUCCAUUCCCUCAUUCA   1292
+                     .|          |.||.||| ||  .|||| |||.||||||..|  ||.|
+EMBOSS_001      7280 GACUGUGGGAGUGCUAGUCC-CAACCUUUAGAUGGCCAUUCAGU--UUUA   7326
+
+EMBOSS_001      1293 AUCAAUUAUUCAAUUACAAAUCAUUUUUA-----AUAUGAUUUUAUGGUU   1337
+                     |      .||||||    ||.||||||.|     |.||..|||    |.|
+EMBOSS_001      7327 A------GUUCAAU----AAGCAUUUUGAUUGAGAAAUACUUU----GCU   7362
+
+EMBOSS_001      1338 CAGG------AAUUCAGGCAGGGCU-----------CAGAUGGGCAGUUC   1370
+                     .|||      ||.||   |..||||           ..||||.|||||||
+EMBOSS_001      7363 GAGGAGUGAAAAGUC---CUUGGCUUUGAAAGACGAAUGAUGAGCAGUUC   7409
+
+EMBOSS_001      1371 UUCUGCCC----CACA----UGGCAUUGGCUGAUAACAGGCUACCCC---   1409
+                     ....||||    ||||    .||||   .|||..|| |||..||.||   
+EMBOSS_001      7410 AGUGGCCCAUGUCACAGUCCAGGCA---CCUGCCAA-AGGUGACUCCCUG   7455
+
+EMBOSS_001      1410 -AAGGA-------AAUCACA------------------------------   1421
+                      .||||       |.|||||                              
+EMBOSS_001      7456 GGAGGAGCAUCUUAGUCACAGAGCCAGUGCCUGCUGUAGGUGUGCAGAAG   7505
+
+EMBOSS_001      1422 -----------------------------------------------GUG   1424
+                                                                    |||
+EMBOSS_001      7506 GGUGCAUGUGUGUGUGUGUGUGUGUGUGUGUAUGUGUACGUGUACAUGUG   7555
+
+EMBOSS_001      1425 UAAUGGGAGAUGGGAAAUAGGUU-----AACA------------------   1451
+                     |..||||.||.||||...|||||     |.||                  
+EMBOSS_001      7556 UGUUGGGGGAAGGGAGCAAGGUUGUGGGAGCAUUUCUUAUCUGCUCUUCU   7605
+
+EMBOSS_001      1452 ---CA----------------AAGUUAC--UAUACUAC----AAG-----   1471
+                        ||                ||||.||  ||.|.|||    |||     
+EMBOSS_001      7606 CUGCAAGAUUUCCUGUGAUUUAAGUCACAUUAAAGUACCCAUAAGCCCGU   7655
+
+EMBOSS_001      1472 ------AAAAAUCUUCAAAUCUUCA-----------AUCUUCAUUCUUCA   1504
+                           |||.|.|..||||.|  ||           |.|         ||
+EMBOSS_001      7656 AAUGCAAAAGAACCCCAAAAC--CAGCCCAGCAGCCAAC---------CA   7694
+
+EMBOSS_001      1505 UGGGUGUGAGU--CUUCUCUGGU------------GGAGAAGAGAGUUCU   1540
+                     |||..|..|||  .|.|||||||            .||.|.||.|.||||
+EMBOSS_001      7695 UGGCAGCAAGUAGAUGCUCUGGUCUUUAGAUAGUCAGAAAUGACACUUCU   7744
+
+EMBOSS_001      1541 UUGC-------------------------------UAAAUU---------   1550
+                     ..||                               ||||.|         
+EMBOSS_001      7745 GGGCUCUCAGGCAGUCAGUGGGUUGAGCUCCCCAUUAAAGUCCCCCUGCC   7794
+
+EMBOSS_001      1551 ---------AUAUUCC----------------------------------   1557
+                              |||.|||                                  
+EMBOSS_001      7795 AAGUCUGGAAUAGUCCUAGUCCCGUGUGUGUGUGUGUGUGUGUGUGUGUG   7844
+
+EMBOSS_001      1558 --------------UGUGU-UAGCCAGC-----CAAGCACACACGGAGUA   1587
+                                   ||||| || ||.||     .|.||.|.||.|.|||.
+EMBOSS_001      7845 UGUGUGUGUGUGUGUGUGUGUA-CCCGCGUGCAUAUGCGCGCAUGCAGUG   7893
+
+EMBOSS_001      1588 CAG---CUG--UCCCU--------UGCUAUUC------AUGGC-------   1611
+                     |||   |||  |.|||        ||..||||      |||||       
+EMBOSS_001      7894 CAGGGUCUGCAUACCUAAAGCAGAUGAAAUUCUGCAGAAUGGCUGCCUCA   7943
+
+EMBOSS_001      1612 -----------------------------------AGAUUGAU-------   1619
+                                                        ||.|||||       
+EMBOSS_001      7944 CUAGACAAAGUCAAGAAGACAGACCGAGGAGAGAGAGGUUGAUGUGUCUC   7993
+
+EMBOSS_001      1620 -----CCCAGA---------CACU--GCCACC-------CCCAGCCCUGU   1646
+                          ||.|||         |.||  ||||.|       ||||.||    
+EMBOSS_001      7994 CACUACCAAGAGAUAGGCUUCUCUAAGCCAGCGAGACAUCCCAUCC----   8039
+
+EMBOSS_001      1647 GAACACCA--AAACCCAUGGAUGCUCAAGUCCUUGAUAU----------A   1684
+                      ||||..|  ||||   |||  .|.||..|||||||.||          |
+EMBOSS_001      8040 -AACAAUAUGAAAC---UGG--CCACAUUUCCUUGAGAUGUCAACGUUGA   8083
+
+EMBOSS_001      1685 AAAUGGUA--------------------UGGUAU----UUG-------CA   1703
+                     ||.| |||                    ||.|||    |||       ||
+EMBOSS_001      8084 AAGU-GUAGCUGCAUCUUUAUUCUUCACUGUUAUGAAGUUGGGUGCAACA   8132
+
+EMBOSS_001      1704 C------------AUA-------ACC-----UACACACAU----------   1719
+                     |            |||       |||     .|.||||||          
+EMBOSS_001      8133 CAGCUUGAGUGGAAUACAAAAACACCGCUUGGAAACACAUGAUCUGGAUU   8182
+
+EMBOSS_001      1720 ----------------------CUUCCCAUAUACU---------------   1732
+                                           |.|.|.|||.|||               
+EMBOSS_001      8183 UGAAUCGCAGCUGUAUCAUUCACCUGCUAUAGACUUUGAGCAAGACCUCU   8232
+
+EMBOSS_001      1733 ------UUAAAUCAUCAC------UAGA--------UUACUUAUAA----   1758
+                           |||..||.||||      ||||        ||||||..||    
+EMBOSS_001      8233 CUGAGGUUAUUUCUUCACAGUAGGUAGAGACAAGACUUACUUCAAAGGUU   8282
+
+EMBOSS_001      1759 ----------UACCUAAUGCAAUGUAAAUGCUAUGUAAGUAGUUGC----   1794
+                               .||||.|..|||||  |||||.|   |||| ||| |    
+EMBOSS_001      8283 CUUAAAGUUGAACCUGAGUCAAUG--AAUGCAA---AAGU-GUU-CACAU   8325
+
+EMBOSS_001      1795 -UACGCUGU-AUUGCUUAGGGAAUAAUGACAAGAAAAAAAGGCUGUA---   1839
+                      ||..|||| |||  |||..|.|.||| |||||.|||.|  ||..||   
+EMBOSS_001      8326 UUAAACUGUAAUU--UUAAAGCACAAU-ACAAGUAAAUA--GCAUUAAUA   8370
+
+EMBOSS_001      1840 -------------CAACUUCAGUA--------CAAAUGCUAUCAUUCAUU   1868
+                                  .||||| ||.|        ||.|||     |||||  
+EMBOSS_001      8371 UCAUUAGAGAGAUUAACUU-AGCACUGUGCGUCACAUG-----AUUCA--   8412
+
+EMBOSS_001      1869 UUUUU--------AUCUG---AAUAUUAUGAUCCAUGAAUACAGAGG---   1904
+                         |        |||||   .||||.|         ||||.|||||   
+EMBOSS_001      8413 ----UCACGGGCCAUCUGUGAGAUAUCA---------AAUAGAGAGGUGA   8449
+
+EMBOSS_001      1905 -GCUGGCUGUAAAAAGAA-------------UGUA--CAGUUUGGUACUU   1938
+                      ||..||.||||.||.||             |.||  ||||   |||||.
+EMBOSS_001      8450 AGCCUGCAGUAAUAAAAAAUACUGCCAUAGCUAUAACCAGU---GUACUC   8496
+
+EMBOSS_001      1939 UACUCCU-------------------------------------------   1945
+                     |.|||.|                                           
+EMBOSS_001      8497 UUCUCUUCCUAAACAAACAACAAACAAAUCUUGCCAGAGUCAAAAGGCAA   8546
+
+EMBOSS_001      1946 -AGUUU-------------------------------AAGUCA-------   1956
+                      |||||                               ||||||       
+EMBOSS_001      8547 CAGUUUCGACUGCUUUUUCUGUUUUCUUGAAAGACAGAAGUCAAGCUUAG   8596
+
+EMBOSS_001      1957 -----UCUCUUUCGGCCCAUACAGGUUGCCUGGGGC------------AG   1989
+                          |||||.|     .|.|.|.|.||...|.|||            ||
+EMBOSS_001      8597 UCCCUUCUCUAU-----GAGAAAUGGUGAAGGAGGCACUCUCUUUGUUAG   8641
+
+EMBOSS_001      1990 GGCGGUGGUGAGUGUGUUGAGUCGGCCCUAUACCCUGU---UCCA--CAA   2034
+                     .||..||  ||||||        ||||.|     .|||   ||.|  |||
+EMBOSS_001      8642 AGCUAUG--GAGUGU--------GGCCAU-----GUGUGGAUCAAGCCAA   8676
+
+EMBOSS_001      2035 -----UGCCUGGUGUC-CUUGGCACGUAG------CU------UG---CA   2063
+                          |||||    || ||.|||.|..||      ||      ||   ||
+EMBOSS_001      8677 CGUCCUGCCU----UCACUGGGCUCACAGACAACACUCACAAAUGUCACA   8722
+
+EMBOSS_001      2064 GGGCUGCUUCCAUGGAUGGCUGCCUCAUCCC---CCACCCC----UCCUU   2106
+                     |.|||     ||  ||        |||.|||   |||.|.|    |||||
+EMBOSS_001      8723 GAGCU-----CA--GA--------UCACCCCUCUCCAACACUUUUUCCUU   8757
+
+EMBOSS_001      2107 CAU--------------------------------------------GGC   2112
+                     |||                                            .||
+EMBOSS_001      8758 CAUCAAAGAAAGUGCGUCCAAAUGCAAAUGAGAGCAAUGAUACCGUAUGC   8807
+
+EMBOSS_001      2113 A------------CCCUCUUUUCUCCA----------------ACUCCUU   2134
+                     |            |.||||||.|| ||                ||||||.
+EMBOSS_001      8808 AUACCCAUGAAUCCACUCUUUGCU-CAUUCUUAUUUUGAAUGCACUCCUA   8856
+
+EMBOSS_001      2135 UU-----CCUCUGCUGAGUCCUACCUU----------------UUC----   2159
+                     ||     |||.||.|...|||||  ||                |||    
+EMBOSS_001      8857 UUUCAAACCUUUGGUACUUCCUA--UUAUUGAUAACAAAUUACUUCACAA   8904
+
+EMBOSS_001      2160 ----UUGCCA-------------------------------GAC------   2168
+                         |||.||                               |||      
+EMBOSS_001      8905 CCGAUUGACAUGUGAUGGCACAACUGAAAGUCAAGAUUGAGGACAAAUGU   8954
+
+EMBOSS_001      2169 -------------------CAGGGAUUUG--------------------C   2179
+                                        ||||.|||||                    |
+EMBOSS_001      8955 CUGCAGCCGUGGGUGGGGGCAGGAAUUUGUUUUAUGCAUCUUAGUAUUUC   9004
+
+EMBOSS_001      2180 CAA---------------UUAUU-----CUGGA--UGG-----GCACAGG   2202
+                     |||               |.|||     ||.||  |||     || |.||
+EMBOSS_001      9005 CAAUGCCCAGGUAGAUGCUCAUUGCUGACUUGAAUUGGCCCUAGC-CUGG   9053
+
+EMBOSS_001      2203 GAAGGGG----CCCUCAGAUCC----------------------------   2220
+                     |||||.|    |.|.|||.|||                            
+EMBOSS_001      9054 GAAGGAGAAACCUCACAGCUCCCUACCCAUGAGCUCUGGGGCCAUUCCUA   9103
+
+EMBOSS_001      2221 -UGCAGAG-----------------------------GGAGCAUCUGA--   2238
+                      |||||||                             ||||||||..|  
+EMBOSS_001      9104 AUGCAGAGGGGCUAGUUGGGUAGUCAUAGCCCUUUUAGGAGCAUCACAGU   9153
+
+EMBOSS_001      2239 -AAGACAAUGAGAC---------CCUGUAC------------------AC   2260
+                      |.||||| |||||         |||.|||                  ||
+EMBOSS_001      9154 CAUGACAA-GAGACCAGAAAUGGCCUCUACAGGAGAUUUCAAUGUAGGAC   9202
+
+EMBOSS_001      2261 AACCAAGCU--------------------------------------GAG   2272
+                     ||.|.||||                                      |||
+EMBOSS_001      9203 AAACCAGCUCCCUUCACACUCUGUGGUAGUGACAGUUUUAAGUGGAGGAG   9252
+
+EMBOSS_001      2273 -------CCUCCUCCUCUCUACCCCUGCCU---------GUGGCUCUC--   2304
+                            ||..||.||.|| |..|||||||         ||||| |||  
+EMBOSS_001      9253 UAAGUGCCCAGCUUCUUUC-AUGCCUGCCUUUGAAGAGGGUGGC-CUCUU   9300
+
+EMBOSS_001      2305 -CC----------GUCU---------------------------------   2310
+                      ||          ||||                                 
+EMBOSS_001      9301 GCCAGCAAGAAGUGUCUGAGGUUUGGGUGGGUGAGAGCUGGAUGAAAUGA   9350
+
+EMBOSS_001      2311 ------------------CCUGGCAUU------------------CUAAC   2324
+                                       ||.||.|.|                  |.|||
+EMBOSS_001      9351 GUGUGUAGGUGGUACUGCCCAGGGAAUAAAUGUGAAAAGCCAAAGCAAAC   9400
+
+EMBOSS_001      2325 CUGC-----CAC----------UGAAUUCU--------------------   2339
+                     ||.|     |||          ||.|||||                    
+EMBOSS_001      9401 CUUCAAGUGCACAGCAAAGAGAUGCAUUCUCAGCUGUGUUCCUAAAGACA   9450
+
+EMBOSS_001      2340 -------UCCCACGC------------CA---------------AACGCA   2355
+                            ||.||.||            ||               |||.||
+EMBOSS_001      9451 UUCAAAAUCACAUGCGUCUAUCUGGGUCAUGUGGGCGGAUCUGUAACCCA   9500
+
+EMBOSS_001      2356 GGUUA------------GGAACCUAAGCUCGGAUGAAAUGCU--------   2385
+                     ||..|            .||.||.|||||.|.|||    |||        
+EMBOSS_001      9501 GGGCAUCCACAGAUACCAGAGCCAAAGCUGGCAUG----GCUGUUCCCCG   9546
+
+EMBOSS_001      2386 ---GGCU---UAGACCUCAUUGCUACUGAGAAGCAG---AAACCACA---   2423
+                        ||||   .||.||   ||||  |.|.|.|||||   .|.|||||   
+EMBOSS_001      9547 CCAGGCUGGGGAGGCC---UUGC--CAGGGCAGCAGCCCCAGCCACACGC   9591
+
+EMBOSS_001      2424 -CUUUUUAGUUGGUAGAGG--UGGAUGUGGAU---------UGGGGCCAU   2461
+                      |||.|  ||||| ||..|  ||||   ||.|         ||||||  |
+EMBOSS_001      9592 CCUUGU--GUUGG-AGCAGUCUGGA---GGCUGCCAGCCUGUGGGGC--U   9633
+
+EMBOSS_001      2462 AAAGUU----UCCUCAAUCAUUGAAUAAGGAUUUCA--UUAU--------   2497
+                     ...|||    ||||               |.|.|||  |.||        
+EMBOSS_001      9634 GGUGUUGAACUCCU---------------GGUCUCAAGUGAUCCUCCCAC   9668
+
+EMBOSS_001      2498 -UUGGACUAACUAAAUACAUUAGAUUA----UUU-----AU----ACUAA   2533
+                      ||||.||..|.||.|.| |..|||||    |.|     ||    .|.|.
+EMBOSS_001      9669 CUUGGCCUCUCAAAGUGC-UGGGAUUACAGGUGUGAGCAAUCACGCCCAG   9717
+
+EMBOSS_001      2534 CUAAAUAAAUUAGAUUUAUUUUUCGAAGUUUAAAA----UCAUUUUCA-A   2578
+                     |||.|.||            ||||     ||||||    |..|||||| |
+EMBOSS_001      9718 CUAUAAAA------------UUUC-----UUAAAAGCCUUACUUUUCAGA   9750
+
+EMBOSS_001      2579 U-----AGUGACGAAAAAGGCUGUAGAUGAGAUGGGAGAAU-CUUUCGAC   2622
+                     |     |.|.|.|||.||    ||||||   |.||..|..| |.|.|.||
+EMBOSS_001      9751 UGGGGAACUAAUGAACAA----GUAGAU---AGGGUUGCCUGCCUGCUAC   9793
+
+EMBOSS_001      2623 GCCAAAUU--CUUCCCAUCUCCUGCCUAGUAUGUAUCACUACACCUUGCC   2670
+                     .||    |  ||.||||.|.|...|||.||   |||.|  ||||||.|  
+EMBOSS_001      9794 CCC----UGCCUCCCCACCCCACACCUGGU---UAUGA--ACACCUGG--   9832
+
+EMBOSS_001      2671 CAGAGAGACG---------GAGGACGC--------GCACAGCCCGAGGAG   2703
+                     .|||||.|.|         .|||||.|        |||||  .|.||.||
+EMBOSS_001      9833 AAGAGACAAGAUGAGAAUCCAGGACACUUUCUUCUGCACA--UCAAGUAG   9880
+
+EMBOSS_001      2704 GCAGAGCCCCAGACG----GGAAUG-------------------------   2724
+                     ..|||| .|.|||.|    ||||||                         
+EMBOSS_001      9881 CAAGAG-ACAAGAGGCUAUGGAAUGUUUAUUUGAUUGUGCUGGUGAUAGA   9929
+
+EMBOSS_001      2725 GGCUUUUCA--GAGGUG--------GGGUGCGGGCGAGG-GGACGAU---   2760
+                     ||...||||  ||||.|        .||||.|||..||| |.|.|||   
+EMBOSS_001      9930 GGGGAUUCAUUGAGGAGAAGAAAAAUGGUGGGGGGUAGGAGAAAGAUAAA   9979
+
+EMBOSS_001      2761 -GCAUUAUU-----------UUUAAUAUUUG--------AUUU-------   2783
+                      ||| |.||           ||||  |||||        ||||       
+EMBOSS_001      9980 AGCA-UCUUGAUCUCCCACCUUUA--AUUUGCAUAAAACAUUUCAGCUCA  10026
+
+EMBOSS_001      2784 ----------AUUUUUCCAACUGG--ACUUCU------UCCC--GGGGCU   2813
+                               |||        |||  |.||||      ||.|  |||.||
+EMBOSS_001     10027 AGAAGCUAACAUU--------UGGUAAUUUCUGAAUAAUCACAAGGGCCU  10068
+
+EMBOSS_001      2814 CU----------UUCUGGGCCCAGCU--GCCUUUGUGAUCCCGCGCCCCG   2851
+                     .|          ||||||...||.||  |||.|         |.|||||.
+EMBOSS_001     10069 GUGACAAAGCAAUUCUGGAAACAACUGAGCCAU---------GGGCCCCU  10109
+
+EMBOSS_001      2852 GUCCUCGGCCUCUCACCUCCAGCGCCG----------------GGGCGCC   2885
+                     .|.||   |.|||||   |.|.|||.|                |||.|..
+EMBOSS_001     10110 CUGCU---CUUCUCA---CAAACGCUGUUGUUCAUUUGCUGAAGGGUGAA  10153
+
+EMBOSS_001      2886 CCCUGCUGUCGG------AAGCGGCUGUGACC---------------GGG   2914
+                     |.|    .||||      ||||       |||               |||
+EMBOSS_001     10154 CUC----AUCGGUCUUCAAAGC-------ACCUAACUCCUUGGAGGUGGG  10192
+
+EMBOSS_001      2915 CAGAGG-----------UGCUAUCUGGGACUCUGGGUUC--UCAGCCCGG   2951
+                     ||||||           |||.|      ||||      |  ||.||    
+EMBOSS_001     10193 CAGAGGCUGAAUCCAACUGCCA------ACUC------CCAUCUGC----  10226
+
+EMBOSS_001      2952 GGACAGCGAACCGAGGGGCAG-AUGA------UCCAUCAGAAAAGAGCCG   2994
+                       |||||.||.|   .||||| ||.|      |||.||            
+EMBOSS_001     10227 --ACAGCCAAGC---UGGCAGCAUCACUUCUUUCCCUC------------  10259
+
+EMBOSS_001      2995 GCACUGCCCAGCCCCGCGCCCCUGCC---CCUGC--CUUUUUCCGGGAGC   3039
+                      |||| |||||.|.|..|     |||   ||.||  .||.||   |||||
+EMBOSS_001     10260 -CACU-CCCAGUCACAUG-----GCCAAACCAGCAGGUUCUU---GGAGC  10299
+
+EMBOSS_001      3040 ----------GCGCC-------GCGCCGCACCCG-----CU-------AC   3060
+                               ||.||       |.||..||||.|     ||       ||
+EMBOSS_001     10300 AUCUGCUUCUGCCCCACAUGGUGGGCUCCACCUGGGAGACUUUCCAUCAC  10349
+
+EMBOSS_001      3061 GGCCGCUU-----------------------------GA---------CC   3072
+                     .|.|.|||                             ||         .|
+EMBOSS_001     10350 UGACUCUUUGAAAGAGUCUGUUUGUCUGUGGGAAAGAGAGUUGCUGUCAC  10399
+
+EMBOSS_001      3073 CCAU----CUU-UGAGCCCGGCC--CCA----------AGCU-CUGGG-A   3103
+                     ||||    ||| |||.|||.|||  |||          |.|| ||||| |
+EMBOSS_001     10400 CCAUAAAACUUCUGACCCCAGCCAUCCAACAAGAGUGUACCUGCUGGGUA  10449
+
+EMBOSS_001      3104 CCGU---------CGUGC-------------------CCC------UCAU   3119
+                     ..||         |.|||                   |||      |.||
+EMBOSS_001     10450 GGGUAGACAUGUGCUUGCCUGAUUUCUAGCUAUGGUUCCCUGGAGGUAAU  10499
+
+EMBOSS_001      3120 CAAGGAAGA---------------------GCCAAGGACCCCAAG-----   3143
+                     .|||.||.|                     |||.||  |.|.|||     
+EMBOSS_001     10500 UAAGUAAAAAAGAAAUGCCUUUGGGUUUUGGCCCAG--CUCAAAGUAAAA  10547
+
+EMBOSS_001      3144 ---GAGAAGG--UAGAAAGGAGUUCAUGAAGGCAGAAA-UGC--CUGGGG   3185
+                        |||||||  |.|||.||       |||.| ||||| |||  .|.|||
+EMBOSS_001     10548 UUAGAGAAGGCCUGGAAGGG-------GAAAG-AGAAACUGCAGUUUGGG  10589
+
+EMBOSS_001      3186 C---------------------------------------CCA-------   3189
+                     |                                       |||       
+EMBOSS_001     10590 CAAAUCUCUUUCAUUUGUAGUUUCUUUCUUCUCUCAGACACCAUGGCAGC  10639
+
+EMBOSS_001      3190 -------CGAACA---UCCCAG------------------------UGUG   3205
+                            |.||.|   ||||||                        ||.|
+EMBOSS_001     10640 UUUCUUCCUAAGACUCUCCCAGGGAGCUGGUGGAAAAGACUGGGCCUGAG  10689
+
+EMBOSS_001      3206 G-CCCUGGA-CG-GGACAUC--------AUGCU------------GGGCA   3232
+                     | ||||||| || ||| .||        |||||            |||| 
+EMBOSS_001     10690 GACCCUGGAGCGAGGA-GUCAAUGGAGGAUGCUGAAGGUUGAGAGGGGC-  10737
+
+EMBOSS_001      3233 ACA-----CAGCUA-----------AAAUGC-------------------   3247
+                     |||     ||||||           |||.||                   
+EMBOSS_001     10738 ACAGUGCGCAGCUACAGUCAUCAGCAAAAGCAGCUUCCAUCGUGGUGUGG  10787
+
+EMBOSS_001      3248 -GGGUGAAGACCAGA--UUUCUUGCACAUGGC--------------GGUG   3280
+                      |||.|.|| |||||  .|||..||||||.||              ||||
+EMBOSS_001     10788 AGGGAGCAG-CCAGACCAUUCCAGCACAUCGCUCCUUUGAAUGCUGGGUG  10836
+
+EMBOSS_001      3281 ---ACG---GGAUG----CUCCCUAGAG-------AGC---------UUC   3304
+                        |||   .||||    .||||||.||       |||         |.|
+EMBOSS_001     10837 UCCACGCCCAGAUGGCCUUUCCCUAAAGGAAUGCAAGCCUGUCACCAUGC  10886
+
+EMBOSS_001      3305 AAGUGG----AU-----UCUUUGCU---UUUUAUUU-----------UCU   3331
+                     |.|.||    ||     ||.||.||   ||||.|||           |.|
+EMBOSS_001     10887 AGGGGGGAGCAUCCUCCUCCUUUCUACCUUUUGUUUGUAGUUGUUCAUUU  10936
+
+EMBOSS_001      3332 CUCUUAAUAAAAAUG--UAUGAUGUUUACAUU   3361
+                     .|.|||||||||.||  |.||| ||||..|||
+EMBOSS_001     10937 AUUUUAAUAAAAGUGAUUCUGA-GUUUUUAUU  10967
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,19 @@
+ssh -X -L 9999:127.0.0.1:9999 naeem@172.16.100.167
+
+password i181208123
+
+nohup jupyter notebook --port 9999 &
+
+ nano nohup.out
+
+transfer files
+
+scp ./lncRNA_seq_clean.fa naeem@172.16.100.167:MushtaqWorkspace/LncRNAsSmilarity
+
+pkill -f Seq_Similarity.py 
+
+jupyter nbconvert --to script file.ipynb
+
+Seq_Similarity.py 
+
+nohup python -u Seq_Similarity.py > output.log &

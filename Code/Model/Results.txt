@@ -1,0 +1,27 @@
+Kmer and DAC without PCA
+LR
+Results on validation set: 
+Accuracy: 0.4660436137071651
+Precision: 0.47415730337078654
+Recall: 0.5203452527743526
+F1 Score: 0.49617871840094063
+
+Results on test set:
+Accuracy: 0.4695554725438924
+Precision: 0.46007853403141363
+Recall: 0.5416024653312789
+F1 Score: 0.4975230007077141
+
+XGB
+
+Results on validation set: 
+Accuracy: 0.3601246105919003
+Precision: 0.3783783783783784
+Recall: 0.41430332922318125
+F1 Score: 0.39552678045909356
+
+Results on test set: 
+Accuracy: 0.3619723571161748
+Precision: 0.36423841059602646
+Recall: 0.423728813559322
+F1 Score: 0.3917378917378917
